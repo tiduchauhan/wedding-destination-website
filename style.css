@@ -1,0 +1,125 @@
+{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(119, 27%, 62%);
+}
+
+header {
+    height: 45px;
+}
+
+header nav ul {
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-left: 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: brown;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    text-align: center; /* Ensure the container is centered */
+}
+
+.Container img {
+    height: 300px;
+    border-radius: 90%;
+    margin-left: 70px;
+}
+
+#intro.Container h1 {
+    margin-top: 20px; /* Adjust margin as needed */
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#upcomingoffers .container {
+    position: relative; /* Add position relative */
+    margin-top: 2%;
+    padding: 90px;
+}
+
+#upcomingoffers .container h1 {
+    font-size: 3em; /* Ensure the h1 is large enough */
+    margin-bottom: 1rem; /* Add some space below the heading */
+}
+
+#upcomingoffers .container p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#upcomingoffers .container .image-top-left,
+#upcomingoffers .container .image-bottom-right {
+    position: absolute;
+}
+
+#upcomingoffers .container .image-top-left {
+    top: 0;
+    left: 0;
+}
+
+#upcomingoffers .container .image-bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+#upcomingoffers .container .image-top-left img,
+#upcomingoffers .container .image-bottom-right img {
+    width: 200px;
+    height: 100px;
+    transition: transform 0.5s ease;
+}
+
+#upcomingoffers .container .image-top-left img:hover,
+#upcomingoffers .container .image-bottom-right img:hover {
+    transform: scale(1.1);
+}
+
+#contact .container p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+#intro {
+    background-image: url(bc\ EV.jpeg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+#upcomingoffers {
+    background-image: url(up3EV.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+#contact {
+    background-image: url(up3EV.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
