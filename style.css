@@ -35,7 +35,7 @@ section {
 }
 
 .Container {
-    text-align: center; /* Ensure the container is centered */
+    text-align: center; 
 }
 
 .Container img {
@@ -45,21 +45,21 @@ section {
 }
 
 #intro.Container h1 {
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
     font-size: 3em;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #upcomingoffers .container {
-    position: relative; /* Add position relative */
+    position: relative; 
     margin-top: 2%;
     padding: 90px;
 }
 
 #upcomingoffers .container h1 {
-    font-size: 3em; /* Ensure the h1 is large enough */
-    margin-bottom: 1rem; /* Add some space below the heading */
+    font-size: 3em; 
+    margin-bottom: 1rem; 
 }
 
 #upcomingoffers .container p {
